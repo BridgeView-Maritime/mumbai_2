@@ -8,7 +8,7 @@ const Contact = (props) => {
     e.preventDefault();
     
 
-    const response = await fetch("http://http://50.19.98.234/api/details", {
+    const response = await fetch("http://50.19.98.234/api/details", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
